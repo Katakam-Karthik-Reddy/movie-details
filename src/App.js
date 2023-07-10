@@ -60,7 +60,7 @@ const App = () => {
         <h1>Movies</h1>
         <div className='search'>
           <input
-            placeholder='Search for Search'
+            placeholder='Search for Movie'
             value={searchMovie}
             onChange={(e) => {
               setSearchmovie(e.target.value)
